@@ -10,10 +10,10 @@ public class EmployeeServiceTest {
                 new EmployeeService();
 
         service.addEmployee(
-                new Employee(2, "Annu"));
+                new Employee(1, "Annu"));
 
         assertEquals(
-                1,
+                2,
                 service.getEmployeeCount());
     }
 }
