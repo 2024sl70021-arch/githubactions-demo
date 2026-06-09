@@ -6,7 +6,7 @@ public class App {
                 new EmployeeService();
 
         service.addEmployee(
-                new Employee(1, "Ankit"));
+                new Employee(1, "Annu"));
 
         System.out.println(
                 "Employee Count: "
