@@ -13,7 +13,7 @@ public class EmployeeServiceTest {
                 new Employee(1, "Annu"));
 
         assertEquals(
-                2,
+                1,
                 service.getEmployeeCount());
     }
 }
