@@ -10,6 +10,8 @@ jobs:
         steps:
             - run: echo "hello everyone"
             - run: echo " welcome to github actions"
+            - uses: actions/checkout@v4
+            - uses: actions/setup-java@v4
 
 
 
