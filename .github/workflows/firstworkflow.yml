@@ -8,4 +8,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run : echo "hello welcome to github actions"
-            - run : mvn clean install
+
+            - uses: actions/checkout@v4
