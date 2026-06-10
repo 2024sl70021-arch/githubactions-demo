@@ -5,7 +5,7 @@ on:
     
 jobs:
     hello:
-        runs-on: unbuntu-latest
+        runs-on: ubuntu-latest
         steps:
             - run : echo "hello welcome to github actions"
             - run : mvn clean install
