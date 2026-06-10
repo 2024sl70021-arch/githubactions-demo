@@ -1,0 +1,11 @@
+name : firstworkflow
+
+on:
+    push:
+    
+jobs:
+    hello:
+        runs-on: unbuntu-latest
+        steps:
+            - run : echo "hello welcome to github actions"
+            - run : mvn clean install
