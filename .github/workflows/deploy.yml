@@ -18,7 +18,7 @@ jobs:
 
       - name: Deploy
         env:
-          TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Deploying Application..."
           echo "Deployment completed successfully"
